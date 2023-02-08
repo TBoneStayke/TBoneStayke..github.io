@@ -112,11 +112,6 @@ i:hover {
   background-color: #555;
 }
 
-.increaseDiv:hover {
-  transform: scale(1.10);
-  transform: translate(0px, -10px);
-}
-
 button {
   background-color: #CAF0F8;
   border-color: #CAF0F8;
