@@ -73,9 +73,9 @@ i:hover {
 #bio-tab {
   background-color: #195aaf;
   padding: 20px;
-  border: 1px solid #CAF0F8;
+  border: 1px solid #195aaf;
   text-align: center;
-  box-shadow: 2px 2px 4px #CAF0F8;
+  box-shadow: 2px 2px 4px #195aaf;
   width: 250px;
   margin: 0 auto;
 }
