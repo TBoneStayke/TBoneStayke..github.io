@@ -113,7 +113,8 @@ i:hover {
 }
 
 .increaseDiv:hover {
-  transform: scale(1.25);
+  transform: scale(1.10);
+  transform: translate(0px, -10px);
 }
 
 button {
