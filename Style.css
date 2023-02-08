@@ -54,8 +54,8 @@ i {
 }
 
 i:hover {
-  color: #64FFDA;
-  transform: translate(0px, -15px);
+  color: #76d6c0;
+  transform: translate(0px, -10px);
   cursor: pointer;
 }
 
