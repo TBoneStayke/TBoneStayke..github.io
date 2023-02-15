@@ -188,14 +188,17 @@ hr {
   color: #000000;
   font-family: 'Noto Serif', serif;
   font-size: 20px;
+  /*margin-right: 25px;
+  margin-left: 25px; */
 }
 
-.row {
+/*dont need to make your own .row class. including the boostrap css takes care of this stuff
+/*.row {
   --bs-gutter-x: 0rem !important;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-}
+}*/
 
 .defaultCard {
   border: 1px solid #BBB8B2;
@@ -274,3 +277,25 @@ hr {
     opacity: 1;
   }
 }
+
+.bottomPadding{
+  margin: 15px;
+}
+
+.gifSizing{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+    /* Set the border color */
+
+    .custom-toggler.navbar-toggler {
+      border-color: #64FFDA;
+    }
+
+    /* Setting the stroke to green using rgb values (0, 128, 0) */
+
+    .custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100, 255, 218, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
