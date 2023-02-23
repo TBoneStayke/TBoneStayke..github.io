@@ -20,8 +20,7 @@ Blue
   background-color: #48CAE4;
 }
 
-.navColor
-{
+.navColor {
   background-color: #212371 !important;
 }
 
@@ -91,8 +90,7 @@ i:hover {
   color: #fff;
 }
 
-.bioText 
-{
+.bioText {
   margin-bottom: 10px;
   font-size: 25px;
   color: #fff;
@@ -271,8 +269,7 @@ hr {
   animation: text-animation 3s ease-in-out;
 }
 
-.increaseIcon
-{
+.increaseIcon {
   font-size: 64px;
 }
 
@@ -281,37 +278,38 @@ hr {
     transform: translateY(-30px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
   }
 }
 
-.bottomPadding{
+.bottomPadding {
   margin: 15px;
 }
 
-.gifSizing{
+.gifSizing {
   max-width: 100%;
   height: auto;
   width: auto\9;
 }
 
-    /* Set the border color */
+/* Set the border color */
 
-    .custom-toggler.navbar-toggler {
-      border-color: #64FFDA;
-    }
+.custom-toggler.navbar-toggler {
+  border-color: #64FFDA;
+}
 
-    /* Setting the stroke to green using rgb values (0, 128, 0) */
+/* Setting the stroke to green using rgb values (0, 128, 0) */
 
-    .custom-toggler .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100, 255, 218, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100, 255, 218, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 /* Popup Inspired by Rebecca Novvis */
 
-  .overlay {
+.overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -323,6 +321,7 @@ hr {
   opacity: 0;
   overflow-y: scroll;
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
@@ -331,15 +330,16 @@ hr {
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: rgb(3,4,94);
-background: linear-gradient(90deg, rgba(3,4,94,1) 0%, rgba(0,180,216,1) 55%, rgba(202,240,248,1) 100%);
+  background: rgb(3, 4, 94);
+  background: linear-gradient(90deg, rgba(3, 4, 94, 1) 0%, rgba(0, 119, 182, 1) 55%, rgba(72, 202, 228, 1) 100%);
   border-radius: 5px;
   width: 80%;
   position: relative;
   text-align: center;
   transition: all 5s ease-in-out;
 }
-.popup p{
+
+.popup p {
   color: black;
   font-family: 'Noto Serif', serif;
   text-align: left;
@@ -348,6 +348,7 @@ background: linear-gradient(90deg, rgba(3,4,94,1) 0%, rgba(0,180,216,1) 55%, rgb
   margin-right: 10px;
   margin-top: 10px;
 }
+
 .popup h1 {
   margin-top: 0;
   font-size: 45px;
@@ -356,29 +357,33 @@ background: linear-gradient(90deg, rgba(3,4,94,1) 0%, rgba(0,180,216,1) 55%, rgb
   font-family: 'Noto Serif', serif;
 
 }
-.popup h2{
+
+.popup h2 {
   color: black;
   text-align: center;
   font-family: 'Noto Serif', serif;
   font-size: 30px;
 }
-.popup ul{
+
+.popup ul {
   color: black;
   text-align: left;
   font-size: 20px;
   margin-left: 30px;
   margin-right: 10px;
 }
+
 .popup img {
   margin: 15px 10px;
   border: 2px solid #548ea4;
   border-radius: 2px;
   filter: drop-shadow(0px 2px 2px #000000)
 }
+
 .popup .close {
   transition: all 200ms;
   font-family: 'Noto Serif', serif;
-  border: 2px solid ;
+  border: 2px solid;
   border-radius: 30px;
   padding: 5px 10px;
   margin: 10px;
@@ -387,6 +392,7 @@ background: linear-gradient(90deg, rgba(3,4,94,1) 0%, rgba(0,180,216,1) 55%, rgb
   text-decoration: none;
   color: #212371;
 }
+
 .popup .close:hover {
   color: #548ea4;
   border: 2px solid #548ea4;
