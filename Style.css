@@ -331,7 +331,7 @@ hr {
   margin: 70px auto;
   padding: 20px;
   background: rgb(3, 4, 94);
-  background: linear-gradient(90deg, rgba(3, 4, 94, 1) 0%, rgba(0, 119, 182, 1) 55%, rgba(72, 202, 228, 1) 100%);
+  background: linear-gradient(90deg, rgba(3, 4, 94, 1) 0%, rgba(0, 119, 182, 1) 55%, rgba(0, 184, 221, 1) 100%);
   border-radius: 5px;
   width: 80%;
   position: relative;
