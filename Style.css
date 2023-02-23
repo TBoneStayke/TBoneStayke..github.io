@@ -387,3 +387,19 @@ hr {
   color: #548ea4;
   border: 2px solid #548ea4;
 }
+
+/* New Artifact Card CSS  */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #48CAE4;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.artifact {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: rgb(3, 4, 94);
+  background: linear-gradient(90deg, rgba(3, 4, 94, 1) 0%, rgba(0, 119, 182, 1) 55%, rgba(0, 184, 221, 1) 100%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
