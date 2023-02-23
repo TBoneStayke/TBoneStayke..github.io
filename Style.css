@@ -262,6 +262,15 @@ hr {
   animation: text-animation 3s ease-in-out;
 }
 
+.valTitle {
+  font-size: 35px;
+  color: #000000;
+  text-shadow: 2px 2px 5px gray;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  animation: text-animation 3s ease-in-out;
+}
+
 .increaseIcon
 {
   font-size: 64px;
