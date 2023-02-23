@@ -308,3 +308,83 @@ hr {
     .custom-toggler .navbar-toggler-icon {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100, 255, 218, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff6f9;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow-y: scroll;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: linear-gradient(142deg, rgba(33,23,40,1) 0%, rgba(33,15,60,1) 43%, rgba(18,31,65,1) 65%, rgba(4,37,50,1) 100%);
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  text-align: center;
+  transition: all 5s ease-in-out;
+}
+.popup p{
+  color: black;
+  font-family: 'Noto Serif', serif;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.popup h1 {
+  margin-top: 0;
+  font-size: 45px;
+  text-align: center;
+  color: black;
+  font-family: 'Noto Serif', serif;
+
+}
+.popup h2{
+  color: black;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
+}
+.popup ul{
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+.popup img {
+  margin: 15px 10px;
+  border: 2px solid #548ea4;
+  border-radius: 2px;
+  filter: drop-shadow(0px 2px 2px #000000)
+}
+.popup .close {
+  transition: all 200ms;
+  font-family: 'Noto Serif', serif;
+  border: 2px solid ;
+  border-radius: 30px;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #212371;
+}
+.popup .close:hover {
+  color: #548ea4;
+  border: 2px solid #548ea4;
+}
