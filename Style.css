@@ -171,7 +171,7 @@ hr {
   background: #ADE8F4;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #CAF0F8;
-  padding: 5px;
+  padding: 10px;
 }
 
 .h3BoxShadow {
@@ -186,6 +186,15 @@ hr {
   color: #000000;
   font-family: 'Noto Serif', serif;
   font-size: 20px;
+  /*margin-right: 25px;
+  margin-left: 25px; */
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .defaultCard {
@@ -193,7 +202,7 @@ hr {
   margin: auto;
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgb(112 111 108);
-  padding: 5px;
+  padding: 10px;
 }
 
 .justify-content-center {
