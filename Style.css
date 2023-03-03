@@ -17,11 +17,11 @@ Blue
 }
 
 .body {
-  background-color: #48CAE4;
+  background-color: #5fbbce;
 }
 
 .navColor {
-  background-color: #212371 !important;
+  background-color: #25266f !important;
 }
 
 .navColor ul li {
@@ -40,7 +40,7 @@ Blue
 }
 
 .navColor ul li a:hover {
-  color: #64FFDA;
+  color: #76d6c0;
   cursor: pointer;
 }
 
@@ -49,7 +49,7 @@ i {
 }
 
 .navbar .navbar-toggler:focus {
-  color: #64FFDA;
+  color: #76d6c0;
 }
 
 i:hover {
@@ -75,11 +75,11 @@ i:hover {
 
 /* Bio tab styling */
 #bio-tab {
-  background-color: #195aaf;
+  background-color: #325d95;
   padding: 20px;
-  border: 1px solid #195aaf;
+  border: 1px solid #325d95;
   text-align: center;
-  box-shadow: 2px 2px 4px #195aaf;
+  box-shadow: 2px 2px 4px #325d95;
   width: 400px;
   margin: 0 auto;
 }
@@ -130,32 +130,32 @@ button:hover {
 }
 
 hr {
-  background-color: #023E8A;
+  background-color: #224067;
 }
 
 .small {
-  border: 5px solid #023E8A;
+  border: 5px solid #224067;
   border-radius: 3px;
   width: 30%;
   height: 10px;
 }
 
 .medium {
-  border: 5px solid #023E8A;
+  border: 5px solid #224067;
   border-radius: 3px;
   width: 60%;
   height: 10px;
 }
 
 .large {
-  border: 2px solid #023E8A;
+  border: 2px solid #224067;
   border-radius: 3px;
   width: 90%;
   height: 10px;
 }
 
 .full {
-  border: 2px solid #023E8A;
+  border: 2px solid #224067;
   border-radius: 3px;
   width: 100%;
   height: 10px;
@@ -170,12 +170,12 @@ hr {
 
 
 .largeCard {
-  border: 1px solid #CAF0F8;
+  border: 1px solid #d1ebf0;
   margin: auto;
-  background-color: #ADE8F4;
-  background: #ADE8F4;
+  background-color: #d1ebf0;
+  background: #d1ebf0;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px #CAF0F8;
+  box-shadow: 5px 5px 5px #d1ebf0;
   padding: 10px;
 }
 
@@ -240,7 +240,7 @@ hr {
 .testTitle {
   font-size: 6vw;
   color: #000000;
-  text-shadow: 2px 2px 5px #023E8A;
+  text-shadow: 2px 2px 5px #224067;
   text-transform: uppercase;
   letter-spacing: 5px;
   animation: text-animation 3s ease-in-out;
@@ -293,7 +293,7 @@ hr {
 /* Set the border color */
 
 .custom-toggler.navbar-toggler {
-  border-color: #64FFDA;
+  border-color: #76d6c0;
 }
 
 /* Setting the stroke to green using rgb values (0, 128, 0) */
@@ -325,8 +325,8 @@ hr {
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: rgb(3, 4, 94);
-  background: linear-gradient(90deg, rgba(3, 4, 94, 1) 0%, rgba(0, 119, 182, 1) 55%, rgba(0, 184, 221, 1) 100%);
+  background: rgb(46, 47, 113);
+  background: linear-gradient(90deg, rgba(46, 47, 113, 1) 0%, rgba(77, 146, 182, 1) 55%, rgba(66, 141, 156, 1) 100%);
   border-radius: 5px;
   width: 80%;
   position: relative;
@@ -384,12 +384,12 @@ hr {
   font-size: 17px;
   font-weight: bold;
   text-decoration: none;
-  color: #212371;
+  color: #2d2e71;
 }
 
 .popup .close:hover {
-  color: #548ea4;
-  border: 2px solid #548ea4;
+  color: #000000;
+  border: 2px solid #000000;
 }
 
 /* New Artifact Card CSS  */
@@ -397,13 +397,14 @@ main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #48CAE4;
+  background-color: #5fbbce;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
 .artifact {
   margin-bottom: 40px;
   padding: 20px;
-  background: rgb(3, 4, 94);
-  background: linear-gradient(90deg, rgba(3, 4, 94, 1) 0%, rgba(0, 119, 182, 1) 55%, rgba(0, 184, 221, 1) 100%);
+  background: rgb(46, 47, 113);
+  background: linear-gradient(90deg, rgba(46, 47, 113, 1) 0%, rgba(77, 146, 182, 1) 55%, rgba(66, 141, 156, 1) 100%);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
